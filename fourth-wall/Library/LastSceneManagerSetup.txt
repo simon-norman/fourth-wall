@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/FourthWall.unity
+  isLoaded: 1
+  isActive: 1
