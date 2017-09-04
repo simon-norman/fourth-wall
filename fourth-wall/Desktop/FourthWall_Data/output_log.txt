@@ -1,8 +1,16 @@
-Initialize engine version: 5.6.2f1 (a2913c821e27)
+Mono path[0] = 'C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Desktop/FourthWall_Data/Managed'
+Mono path[1] = 'C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Desktop/FourthWall_Data/Mono'
+Mono config path = 'C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Desktop/FourthWall_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Desktop/FourthWall_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55461
+Multi-casting "[IP] 192.168.1.71 [Port] 55461 [Flags] 2 [Guid] 881083399 [EditorId] 2045668212 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-LU8F6O3) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55461]
+PlayerConnection already initialized - listening to [0.0.0.0:55461]
+Player data archive not found at `C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Desktop/FourthWall_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.2f1 (a2913c821e27)
 GfxDevice: creating device client; threaded=1
 VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_PathRegistryNotFound: "Installation path could not be located (110)"!
  
-(Filename:  Line: 1028)
+(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 1028)
 
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -27,114 +35,1742 @@ Platform assembly: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtua
 Loading C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Desktop\FourthWall_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
 Platform assembly: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Desktop\FourthWall_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Desktop\FourthWall_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.052 seconds
+- Completed reload, in  0.018 seconds
 Platform assembly: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Desktop\FourthWall_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Desktop\FourthWall_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
 VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_PathRegistryNotFound: "Installation path could not be located (110)"!
  
-(Filename:  Line: 1028)
+(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 1028)
 
 VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_PathRegistryNotFound: "Installation path could not be located (110)"!
  
-(Filename:  Line: 1028)
+(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 1028)
 
-UnloadTime: 1.148424 ms
+UnloadTime: 1.256150 ms
 Start
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalkthroughGameManager:Start() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Scripts\WalkthroughGameManager.cs:16)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Scripts/WalkthroughGameManager.cs Line: 16)
 
 Starting Connection
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalkthroughGameManager:Start() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Scripts\WalkthroughGameManager.cs:18)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Scripts/WalkthroughGameManager.cs Line: 18)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 4aac -> priority: 1 
-  Thread -> id: 73c -> priority: 1 
+  Thread -> id: 4630 -> priority: 1 
+  Thread -> id: df4 -> priority: 1 
 OnStatusChanged: Connect current State: ConnectingToNameServer
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 Connected to NameServer.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1989)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1989)
 
 OnStatusChanged: EncryptionEstablished current State: ConnectingToNameServer
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.<>c__DisplayClass146_0:<EnqueueStatusCallback>b__0()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 OperationResponse 230: ReturnCode: 0.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1553)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1553)
 
-Received your UserID from server. Updating local value to: 42434b13-0f19-4dd9-8bb8-ab603fc2f43a
+Received your UserID from server. Updating local value to: c80185a7-d7fd-4e38-825c-c055b698d066
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:DebugReturn(DebugLevel, String) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1529)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1660)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1529)
 
 OnStatusChanged: Disconnect current State: DisconnectingFromNameServer
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.<>c__DisplayClass146_0:<EnqueueStatusCallback>b__0()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 OnStatusChanged: Connect current State: ConnectingToMasterserver
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 Connected to masterserver.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2010)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2010)
 
 OnStatusChanged: EncryptionEstablished current State: Authenticating
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.<>c__DisplayClass146_0:<EnqueueStatusCallback>b__0()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 OnEvent: Event 226.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
 
 OperationResponse 230: ReturnCode: 0.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1553)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1553)
 
 Starting Server!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalkthroughGameManager:OnConnectedToMaster() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Scripts\WalkthroughGameManager.cs:23)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+NetworkingPeer:SendMonoMessage(PhotonNetworkingMessage, Object[]) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2713)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1699)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Scripts/WalkthroughGameManager.cs Line: 23)
 
 OperationResponse 226: ReturnCode: 0.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1553)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1553)
 
 OnStatusChanged: Disconnect current State: DisconnectingFromMasterserver
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.<>c__DisplayClass146_0:<EnqueueStatusCallback>b__0()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 OnStatusChanged: Connect current State: ConnectingToGameserver
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 Connected to gameserver.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2001)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2001)
 
 OnStatusChanged: EncryptionEstablished current State: ConnectedToGameserver
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1981)
+ExitGames.Client.Photon.<>c__DisplayClass146_0:<EnqueueStatusCallback>b__0()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1981)
 
 OperationResponse 230: ReturnCode: 0.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1553)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1553)
 
 OperationResponse 226: ReturnCode: 0.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1553)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1553)
 
 OnEvent: Event 255.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+Registered PhotonView: 2001
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:RegisterPhotonView(PhotonView) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3518)
+PhotonView:Awake() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs:269)
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:53)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:156)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:206)
+NetworkingPeer:DoInstantiate(Hashtable, PhotonPlayer, GameObject) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3180)
+PhotonNetwork:Instantiate(String, Vector3, Quaternion, Byte, Object[]) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2493)
+PhotonNetwork:Instantiate(String, Vector3, Quaternion, Byte) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2437)
+WalkthroughGameManager:spawnPlayer() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Scripts\WalkthroughGameManager.cs:35)
+WalkthroughGameManager:OnJoinedRoom() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Scripts\WalkthroughGameManager.cs:30)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+NetworkingPeer:SendMonoMessage(PhotonNetworkingMessage, Object[]) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2713)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2437)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 3518)
+
+Registered PhotonView: 2002
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:RegisterPhotonView(PhotonView) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3518)
+PhotonView:Awake() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs:269)
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:53)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:156)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:206)
+NetworkingPeer:DoInstantiate(Hashtable, PhotonPlayer, GameObject) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3180)
+PhotonNetwork:Instantiate(String, Vector3, Quaternion, Byte, Object[]) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2493)
+PhotonNetwork:Instantiate(String, Vector3, Quaternion, Byte) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2437)
+WalkthroughGameManager:spawnPlayer() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Scripts\WalkthroughGameManager.cs:35)
+WalkthroughGameManager:OnJoinedRoom() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Scripts\WalkthroughGameManager.cs:30)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+NetworkingPeer:SendMonoMessage(PhotonNetworkingMessage, Object[]) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2713)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2437)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 3518)
+
+OnEvent: Event 202.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
 
 Registered PhotonView: 1001
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:RegisterPhotonView(PhotonView) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3518)
+PhotonView:Awake() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs:269)
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:53)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:156)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:206)
+NetworkingPeer:DoInstantiate(Hashtable, PhotonPlayer, GameObject) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3180)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2500)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 3518)
+
+Registered PhotonView: 1002
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:RegisterPhotonView(PhotonView) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3518)
+PhotonView:Awake() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs:269)
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:53)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:156)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:206)
+NetworkingPeer:DoInstantiate(Hashtable, PhotonPlayer, GameObject) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3180)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2500)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 3518)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 200.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+Received RPC: LoadPano
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:ExecuteRpc(Hashtable, PhotonPlayer) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2802)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2475)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2802)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
+
+OnEvent: Event 201.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2255)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:157)
+ 
+(Filename: C:/Users/Simon/Documents/PCandTech/MySoftware/spacelab/virtualreality/fourth-wall/fourth-wall/fourth-wall/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 2255)
 

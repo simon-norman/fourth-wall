@@ -12,6 +12,7 @@ using UnityEngine;
 
         void Start()
         {
+            RenderSettings.skybox = null;
             Debug.Log("Start");
             PhotonNetwork.ConnectUsingSettings(verNum);
             Debug.Log("Starting Connection");
@@ -32,7 +33,5 @@ using UnityEngine;
         public void spawnPlayer()
         {
             GameObject pl = PhotonNetwork.Instantiate(playerPref.name, spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
-            pl.GetComponent<RigidbodyFPSController>().enabled = true;
-            pl.GetComponent<RigidbodyFPSController>().fpsCam.SetActive(true);
-    }
-    }
+        }
+}
