@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 883, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 104
+  controlID: 71
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1539
     height: 947
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 606, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 105
+  controlID: 72
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1539
     height: 573
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 606, y: 221}
+  m_MaxSize: {x: 6054, y: 4021}
   vertical: 0
-  controlID: 106
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,15 +252,15 @@ MonoBehaviour:
     y: 0
     width: 1030
     height: 573
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 404, y: 121}
+  m_MaxSize: {x: 2052, y: 2069}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,10 +333,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\fourth-wall\fourth-wall\fourth-wall
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2270000
-    m_LastClickedID: 10146
-    m_ExpandedIDs: 0000000098260000cc2600002c270000a2270000b2270000c6280000622a0000642a0000662a0000682a00006a2a00006c2a00006e2a0000702a0000722a0000742a0000762a0000782a00007a2a00007c2a00007e2a0000802a0000822a0000842a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 36}
+    m_SelectedIDs: a0270000
+    m_LastClickedID: 10144
+    m_ExpandedIDs: 000000009a260000ce26000026270000a0270000b0270000c0280000ea290000ec290000ee290000f0290000f2290000f4290000f6290000f8290000fa290000fc290000fe290000002a0000022a0000042a0000062a0000082a00000a2a00000c2a00006e2a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000098260000cc2600002c270000a2270000b2270000c6280000622a0000642a0000662a0000682a00006a2a00006c2a00006e2a0000702a0000722a0000742a0000762a0000782a00007a2a00007c2a00007e2a0000802a0000822a0000842a0000
+    m_ExpandedIDs: 000000009a260000ce26000026270000a0270000b0270000c0280000ea290000ec290000ee290000f0290000f2290000f4290000f6290000f8290000fa290000fc290000fe290000002a0000022a0000042a0000062a0000082a00000a2a00000c2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000526200005849fcffb012fcff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -480,9 +480,9 @@ MonoBehaviour:
     height: 552
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a270000
+    m_SelectedIDs: 5c2a0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 320bfbff522dfbff602dfbff0a42fbff1e9ffbffc20cfcffc823fcff7830fcff8430fcff10c1fcff60e1fcffc4d9ffff78daffffc8dbffffe4fbffff0000000060290000da290000e42d0000162e0000242e0000402e0000462e00005e2e0000922e0000
+    m_ExpandedIDs: e4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
