@@ -41,14 +41,9 @@ using UnityEngine;
         private void initialiseImages()
         {
         // var images = Resources.LoadAll("Pano", typeof(Texture2D)).Cast<Texture2D>().ToArray();
-            Texture2D texture = Resources.Load("Pano/1701_7th Floor_360 view 1", typeof(Texture2D)) as Texture2D;
-            Texture2D texture = Resources.Load("Pano/1701_7th Floor_360 view 1", typeof(Texture2D)) as Texture2D;
         //foreach (var i in images)
         //{
         //     Debug.Log(i.name);
-        texture.LoadImage
-                Texture panoTex = Instantiate(i);
-                Texture3D panoTex = new Texture3D(6144, 3027, 1, );
            // }
     }
 
