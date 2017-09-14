@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Linq;
 using UnityEngine;
 
     public class AppManager : Photon.MonoBehaviour
@@ -15,7 +16,6 @@ using UnityEngine;
         void Start()
         {
             Debug.Log("Start");
-            
             PhotonNetwork.ConnectUsingSettings(verNum);
             Debug.Log("Starting Connection");
         }
@@ -30,6 +30,7 @@ using UnityEngine;
         {
             isConnected = true;
             spawnPlayer();
+            initialiseImages();
         }
 
         public void spawnPlayer()
@@ -37,11 +38,18 @@ using UnityEngine;
             GameObject pl = PhotonNetwork.Instantiate(playerPref.name, spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
         }
 
+        private void initialiseImages()
+        {
+            var images = Resources.LoadAll("Pano", typeof(Texture)).Cast<Texture>().ToArray();
+            foreach (var i in images)
+            {
+                Debug.Log(i.name);
+            }
+    }
+
         public void ShowPano(string imagename)
         {
             print("LOAD PANO!");
-            //  pano = (Material)Resources.Load("360material", typeof(Material)) as Material;
-            // RenderSettings.skybox = pano;
             photonView.RPC("LoadPano", PhotonTargets.All, (string)imagename);
         }
 
@@ -54,7 +62,5 @@ using UnityEngine;
             print(panoTexture.name);
             pano.SetTexture("_Tex", panoTexture);
             RenderSettings.skybox = pano;
-          //  RenderSettings.skybox = (Material)Resources.Load("Pano/360material", typeof(Material)) as Material;
-        //Debug.Log(string.Format("RPC: 'OnAwakeRPC' Parameter: {0} PhotonView: {1}", myParameter, this.photonView));
-    }
+        }
 }
