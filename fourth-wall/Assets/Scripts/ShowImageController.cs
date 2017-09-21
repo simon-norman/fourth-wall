@@ -4,10 +4,13 @@ using UnityEngine.EventSystems; // 1
 public class ShowImageController : MonoBehaviour
     , IPointerClickHandler
 {
-    public AppManager appmanager;
+    public GameObject room;
+    public AppManager appManager;
+    public GameObject imageNameText;
 
     void Awake()
     {
+
     }
 
     void Update()
@@ -16,7 +19,12 @@ public class ShowImageController : MonoBehaviour
 
     public void OnPointerClick(PointerEventData eventData) // 3
     {
-        string imageName = gameObject.GetComponent<UnityEngine.UI.Image>().sprite.name;
-        appmanager.ShowPano(imageName);
+        string imageName = imageNameText.GetComponent<UnityEngine.UI.Text>().text;
+        appManager.ShowPano(imageName);
+    }
+
+    public void setMenuItemName(string itemName)
+    {
+        imageNameText.GetComponent<UnityEngine.UI.Text>().text = itemName;
     }
 }

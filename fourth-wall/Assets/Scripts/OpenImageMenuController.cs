@@ -5,7 +5,8 @@ using UnityEngine;
 public class OpenImageMenuController : Photon.MonoBehaviour
 {
     public UnityEngine.UI.Button setHostButton;
-    public GameObject imageGrid; 
+    public GameObject imageSelectionGrid;
+    public SelectionGridManager selectionGridManager;
 
     // Use this for initialization
     void Start () {
@@ -20,6 +21,7 @@ public class OpenImageMenuController : Photon.MonoBehaviour
 
     private void OpenImageMenu()
     {
-        imageGrid.SetActive(true);
+        imageSelectionGrid.SetActive(true);
+        selectionGridManager.DisplayMenu();
     }
 }
