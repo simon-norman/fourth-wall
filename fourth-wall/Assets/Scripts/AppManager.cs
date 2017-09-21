@@ -45,6 +45,7 @@ using UnityEngine;
         //{
         //     Debug.Log(i.name);
            // }
+        
     }
 
         public void ShowPano(string imagename)

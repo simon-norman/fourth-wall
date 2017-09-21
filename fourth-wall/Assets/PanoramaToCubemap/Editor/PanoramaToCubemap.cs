@@ -23,7 +23,7 @@ public class PanoramaToCubemap : EditorWindow {
 	private Texture2D m_srcTexture = null;
 	private float m_direction = 0.0f;
 
-	private string [] m_textureSize = {"64", "128", "256", "512", "1024"};
+	private string [] m_textureSize = {"64", "128", "256", "512", "1024", "4096"};
 	private int m_textureSizeIndex = 3;
 
 	private Texture2D m_dstTextureFront  = null;
@@ -140,7 +140,10 @@ public class PanoramaToCubemap : EditorWindow {
 		case 4:
 			size = 1024;
 			break;
-		}
+        case 5:
+			size = 4096;
+        break;
+    }
 		return size;
 	}
 
