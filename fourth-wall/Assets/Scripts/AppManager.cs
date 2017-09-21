@@ -11,6 +11,7 @@ using UnityEngine;
         public bool isConnected = false;
         public Shader panoShader;
         public Material pano;
+        public GameObject photoSphere;
 
 
         void Start()
@@ -36,6 +37,7 @@ using UnityEngine;
         public void spawnPlayer()
         {
             GameObject pl = PhotonNetwork.Instantiate(playerPref.name, spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
+            Debug.Log(spawnPoint.position);
         }
 
         private void initialiseImages()
@@ -58,10 +60,8 @@ using UnityEngine;
         [PunRPC]
         public void LoadPano(string panoName)
         {
-            pano = (Material)Resources.Load("Pano/360material", typeof(Material)) as Material;
+            photoSphere = GameObject.Find("PhotoSphere");
             Texture panoTexture = (Texture)Resources.Load("Pano/" + panoName, typeof(Texture)) as Texture;
-            print(panoTexture.name);
-            pano.SetTexture("_Tex", panoTexture);
-            RenderSettings.skybox = pano;
-        }
+            photoSphere.GetComponent<Renderer>().material.mainTexture = panoTexture;
+    }
 }
