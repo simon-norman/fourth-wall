@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OpenImageMenuController : Photon.MonoBehaviour
 {
-    public UnityEngine.UI.Button setHostButton;
+    public UnityEngine.UI.Button selectImage;
     public GameObject imageSelectionGrid;
     public SelectionGridManager selectionGridManager;
+    public GameObject layoutCanvas;
+    private bool menuGenerated = false; 
 
     // Use this for initialization
     void Start () {
         //next, any of these will work:
-        setHostButton.onClick.AddListener(OpenImageMenu);
+        selectImage.onClick.AddListener(OpenImageMenu);
     }
 	
 	// Update is called once per frame
@@ -21,7 +24,13 @@ public class OpenImageMenuController : Photon.MonoBehaviour
 
     private void OpenImageMenu()
     {
+        layoutCanvas.GetComponent<Image>().enabled = true;
         imageSelectionGrid.SetActive(true);
-        selectionGridManager.DisplayMenu();
+        if(menuGenerated == false)
+        {
+            selectionGridManager.DisplayMenu();
+            menuGenerated = true;
+        }
+
     }
 }
