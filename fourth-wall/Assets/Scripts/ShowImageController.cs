@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems; // 1
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ShowImageController : MonoBehaviour
     , IPointerClickHandler
@@ -7,10 +8,13 @@ public class ShowImageController : MonoBehaviour
     public GameObject room;
     public AppManager appManager;
     public GameObject imageNameText;
+    public GameObject layoutCanvas;
+    public GameObject imageSelectionGrid;
 
     void Awake()
     {
-
+        layoutCanvas = GameObject.Find("LayoutCanvas");
+        imageSelectionGrid = GameObject.Find("ImageSelectionGrid");
     }
 
     void Update()
@@ -19,6 +23,8 @@ public class ShowImageController : MonoBehaviour
 
     public void OnPointerClick(PointerEventData eventData) // 3
     {
+        imageSelectionGrid.SetActive(false);
+        layoutCanvas.GetComponent<Image>().enabled = false;
         string imageName = imageNameText.GetComponent<UnityEngine.UI.Text>().text;
         appManager.ShowPano(imageName);
     }
