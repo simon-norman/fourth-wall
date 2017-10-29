@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//Used to control when images are shown
+
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Collections;

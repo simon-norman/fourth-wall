@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿//This class sets up the 'room' - IE the online multiplayer room that the Gear VR phones and the PC will connect to for the PC to send commands to show images to the Gear VRs
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 
+//Uses Photon.MonoBehaviour - Photon is the online service that provides the room and the connectivity between the PC and phones
     public class RoomManager : Photon.MonoBehaviour
     {
         public string verNum = "0.1";
@@ -14,36 +16,27 @@ using UnityEngine;
         public GameObject photoSphere;
         public Texture2D[] loadedPanos;
 
-
-    IEnumerator Start()
+    //Start runs when the app loads - it connects to our Photon account
+    void Start()
         {
             Debug.Log("Start");
             PhotonNetwork.ConnectUsingSettings(verNum);
             Debug.Log("Starting Connection");
-            print("Starting download");
-            string imageLocation = "https://www.flickr.com/photos/britishlibrary/11133167035/";
-            WWW www = new WWW(imageLocation);
-            yield return www;
-            //print("Completing download");
-            //photoSphere = GameObject.Find("PhotoSphere");
-            //photoSphere.GetComponent<Renderer>().material.mainTexture = www.texture;
         }
 
+    //Once connected to the Photon account, attempts to join the room (see above for room name)
         public void OnConnectedToMaster()
         {
             PhotonNetwork.JoinOrCreateRoom(roomName, null, null);
             Debug.Log("Starting Server!");
         }
 
+    //Once joined room, creates a new object in the scene - the 'player' object. This is primarily to enable PC users to look around
+    // the scene with a mouse
         public void OnJoinedRoom()
         {
             isConnected = true;
-            SpawnPlayer();
-        }
-
-        public void SpawnPlayer()
-        {
             GameObject pl = PhotonNetwork.Instantiate(playerPref.name, spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
             Debug.Log(spawnPoint.position);
-        }
+    }
 }
